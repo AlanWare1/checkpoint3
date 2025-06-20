@@ -31,7 +31,7 @@ Pour la désactivation du compte root : PermitRootLogin no
 
 La capture d'écran ci-dessous illustre aussi les réponses de la question Q.2.2.2 et Q.2.2.3
 
-![SSH](/Ressources/Exercice2/Q.2.2.1-1-cancelroot-pubkey-nopasswd.png)
+![SSH](/Ressources/Exercice2/Q.2.2.1-1-cancelroot-pubkey-nopasswd.png)  
 
 #### Q.2.2.2  
 

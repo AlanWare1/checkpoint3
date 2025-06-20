@@ -1,4 +1,4 @@
-# checkpoint3
+# checkpoint3 - ALAN COEURJOLY
 
 ### Bonne correction Dominique ! 
 

@@ -12,11 +12,11 @@ Cela permet de conserver les nombreux attributs déjà présent sur la première
 J'ai juste ajouté manuellement les **direct report** en allant sur chaque membre de mon équipe pour leur modifier leur manager
 - Pour cela, `Properties`>`Organization`>`Change`>"Indiquer Lionel => Check Names">`Apply`
 
-![Creation-L-Marchand](/Ressources/Exercice-1/Q.1.1.1-1-Creation-L-Marchand.png)  
+![Creation-L-Marchand](Ressources/Exercice-1/Q.1.1.1-1-Creation-L-Marchand.png)  
 
-![Recap-copy-user](/Ressources/Exercice-1/Q.1.1.1-2-Récap-copy-user.png)  
+![Recap-copy-user](Ressources/Exercice-1/Q.1.1.1-2-Récap-copy-user.png)  
 
-![Verif-Attribut](/Ressources/Exercice-1/Q.1.1.1-3-Verif-attributs-LL.png)  
+![Verif-Attribut](Ressources/Exercice-1/Q.1.1.1-3-Verif-attributs-LL.png)  
 
 ---
 

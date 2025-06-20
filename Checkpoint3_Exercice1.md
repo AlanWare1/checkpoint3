@@ -10,9 +10,13 @@
 
 ![Verif-Attribut](/Ressources/Exercice-1/Q.1.1.1-3-Verif-attributs-LL.png)  
 
+---
+
 #### Q.1.1.2  
 
 ![Disabled-Kelly](/Ressources/Exercice-1/Q.1.1.2-1-Disabled-Kelly.png)  
+
+---
 
 #### Q.1.1.3  
 

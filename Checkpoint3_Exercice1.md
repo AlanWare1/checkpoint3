@@ -6,46 +6,46 @@
 
 ![Creation-L-Marchand](/Ressources/Exercice-1/Q.1.1.1-1-Creation-L-Marchand.png)  
 
-![Recap-copy-user]()  
+![Recap-copy-user](/Ressources/Exercice-1/Q.1.1.1-2-Récap-copy-user.png)  
 
-![Verif-Attribut]()  
+![Verif-Attribut](/Ressources/Exercice-1/Q.1.1.1-3-Verif-attributs-LL.png)  
 
 #### Q.1.1.2  
 
-![Disabled-Kelly]()  
+![Disabled-Kelly](/Ressources/Exercice-1/Q.1.1.2-1-Disabled-Kelly.png)  
 
 #### Q.1.1.3  
 
-![Remove-Grp-Kelly]()  
+![Remove-Grp-Kelly](/Ressources/Exercice-1/Q.1.1.3-1-Remove-Grp-Kelly.png)  
 
-![Remove-Grp-Kelly2]()  
+![Remove-Grp-Kelly2](/Ressources/Exercice-1/Q.1.1.3-2-Remove-Grp-Kelly.png)  
 
 #### Q.1.1.4  
 
-![ArchivageKelly]()  
+![ArchivageKelly](/Ressources/Exercice-1/Q.1.1.4-1.ArchivageKelly-CreationLL.png)  
 
 ### Partie 2 : Restriction utilisateurs  
 
 #### Q.1.2.1  
 
-![Logon-Hours]()  
+![Logon-Hours](/Ressources/Exercice-1/Q.1.2.1-1-Logon-Hours.png)  
 
 #### Q.1.2.2  
 
-![Logon-Client]()  
+![Logon-Client](/Ressources/Exercice-1/Q.1.2.2-1-Logon-Client1.png)  
 
 #### Q.1.2.3  
 
-![Passwd-Security]()  
+![Passwd-Security](/Ressources/Exercice-1/Q.1.2.3-1-Passwd-Security.png)  
 
-![Passwd-Security2]()  
+![Passwd-Security2](/Ressources/Exercice-1/Q.1.2.3-2-Passwd-Security.png)  
 
 ### Partie 3 : Lecteurs réseaux  
 #### Q.1.3.1  
 
-![MappageFE]()  
+![MappageFE](/Ressources/Exercice-1/Q.1.3.1-1-MappageF-E.png)  
 
-![LinkedGPO]()  
+![LinkedGPO](/Ressources/Exercice-1/Q.1.3.1-2-Linked-GPO.png)  
 
 
 

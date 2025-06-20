@@ -8,7 +8,7 @@ Pour créer un compte usage personnel, adduser afin d'avoir le /home + configura
 
 `useradd alan`
 
-![Creation-User](/Ressources/Exercice2/Q.2.1.1-1-Création-user.png)  
+![Creation-User](Ressources/Exercice2/Q.2.1.1-1-Création-user.png)  
 
 ---
 
@@ -17,7 +17,7 @@ Pour créer un compte usage personnel, adduser afin d'avoir le /home + configura
 Etant donné qu'il est déconseillé d'utiliser le compte root de manière banaliser, je préconises :
 - Ajout du compte **alan** au groupe sudo `sudo usermod -aG sudo alan
 
-![Creation-group](/Ressources/Exercice2/Q.2.1.2-2-ajout-group.png)  
+![Creation-group](Ressources/Exercice2/Q.2.1.2-2-ajout-group.png)  
 
 ---
 
@@ -32,7 +32,7 @@ Pour la désactivation du compte root : PermitRootLogin no
 
 La capture d'écran ci-dessous illustre aussi les réponses de la question Q.2.2.2 et Q.2.2.3
 
-![SSH](/Ressources/Exercice2/Q.2.2.1-1-cancelroot-pubkey-nopasswd.png)  
+![SSH](Ressources/Exercice2/Q.2.2.1-1-cancelroot-pubkey-nopasswd.png)  
 
 #### Q.2.2.2  
 
@@ -57,7 +57,7 @@ On peut voir sur la capture d'écran ci-dessous que les fichiers montés sont to
 - le **/boot** sur le raid 1 md0 et partition md0p1
 - le **[SWAP]** ur le raid 1 et volume groupe cp3--vg-swap_1
 
-![LSBLK](/Ressources/Exercice2/Q.2.3.1-1-LSBLK.png)  
+![LSBLK](Ressources/Exercice2/Q.2.3.1-1-LSBLK.png)  
 
 ---
 
@@ -87,9 +87,9 @@ En root, il faut suivre les commandes suivantes :
 
 ---
 
-![fdisk/dev/sdb](/Ressources/Exercice2/Q.2.3.1-1-LSBLK.png)  
+![fdisk/dev/sdb](Ressources/Exercice2/Q.2.3.1-1-LSBLK.png)  
 
-![fdisk2](/Ressources/Exercice2/Q.2.3.3-2-lsblknewvolume.png)  
+![fdisk2](Ressources/Exercice2/Q.2.3.3-2-lsblknewvolume.png)  
 
 ---
 
@@ -99,7 +99,7 @@ Pour ajouter ensuite le volume au raid1 ainsi que réparer le raid1, suivre les 
 - cat /proc/mdstat pour suivre la synchronisation  
 - mdadm --detail /dev/md0 pour voir le statut "Clean" du raid. Voir capture ci dessous.  
 
-![mdadm--detail](/Ressources/Exercice2/Q.2.3.3-3-lsblknewvolume.png)  
+![mdadm--detail](Ressources/Exercice2/Q.2.3.3-3-lsblknewvolume.png)  
 
 ---
 
@@ -124,7 +124,7 @@ Les rôles respectifs de Bareos sont :
 Pour voir les règles appliquées à nftables, j'ai accedé au fichier confit.nft dans /nftables. Ce sont les règles de la table "inet_filter_table" puis de la chaine "in_chain".
 _Voir capture ci-dessous._
 
-![fichier-conf-nftables](/Ressources/Exercice2/Q.2.5.1-1-fichier-conf-nftables.png)  
+![fichier-conf-nftables](Ressources/Exercice2/Q.2.5.1-1-fichier-conf-nftables.png)  
 
 --- 
 
@@ -155,4 +155,4 @@ Je n'arrive pas à bien filtrer les logs, seulement un résultat arrive, le mot 
 
 - jan.03 11:22:58 - 10.0.0.199
 
-![listelogs](/Ressources/Exercice2/Q.2.6.1-1-ListeLOGS.png)
+![listelogs](Ressources/Exercice2/Q.2.6.1-1-ListeLOGS.png)

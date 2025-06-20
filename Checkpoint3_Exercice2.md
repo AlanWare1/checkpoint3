@@ -147,5 +147,12 @@ Les types de communication non autorisés sont :
 
 #### Q.2.6.1  
 
+Pour acceder au fichier des logs, nous allons utiliser l'outil **journalctl**.
 
+J'ai lancé la commande journalctl | grep "invalid user" |tail n-10
 
+Je n'arrive pas à bien filtrer les logs, seulement un résultat arrive, le mot clef du grep n'est surement pas bien paramétré.
+
+- jan.03 11:22:58 - 10.0.0.199
+
+![listelogs](/Ressources/Exercice2/Q.2.6.1-1-ListeLOGS.png)

@@ -85,9 +85,13 @@ En root, il faut suivre les commandes suivantes :
 - Soit 8E pour lvm soit FD pour raid autodetect
 - w
 
+---
+
 ![fdisk/dev/sdb](/Ressources/Exercice2/Q.2.3.1-1-LSBLK.png)  
 
 ![fdisk2](/Ressources/Exercice2/Q.2.3.3-2-lsblknewvolume.png)  
+
+---
 
 Pour ajouter ensuite le volume au raid1 ainsi que réparer le raid1, suivre les commandes ci-dessous.  
 
@@ -117,13 +121,31 @@ Les rôles respectifs de Bareos sont :
 
 #### Q.2.5.1  
 
+Pour voir les règles appliquées à nftables, j'ai accedé au fichier confit.nft dans /nftables. Ce sont les règles de la table "inet_filter_table" puis de la chaine "in_chain".
+_Voir capture ci-dessous._
+
+![fichier-conf-nftables](/Ressources/Exercice2/Q.2.5.1-1-fichier-conf-nftables.png)  
+
+--- 
+
 #### Q.2.5.2  
 
+Les types de communication autorisés sont :
+- autorisation des protocoles SSH, icmp et icm6.
+- ct state established, related **accept** (accepter un paquet autorisé)
+- iifname lo **accept** (autorisé les paquets qui viennent de moi-même, lo pour loopback)
+
 #### Q.2.5.3  
+
+Les types de communication non autorisés sont :
+- ct state invalid **drop** (abandonner un paquet non désiré)
+- type filter hoot... Je ne sais pas
 
 #### Q.2.5.4  
 
 ### Partie 6 : Analyse de logs  
 
 #### Q.2.6.1  
+
+
 

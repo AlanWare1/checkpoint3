@@ -68,6 +68,37 @@ Il utilise aussi lvm pour configurer les partitions.
 
 #### Q.2.3.3  
 
+Ouvrir virtualbox, selectionner la vm SRVLX01, storage, ajouter un disque dur, créer un disque 8GO, ajouter.
+Relancer le serveur.
+
+Lancer la commande `lsblk`. On peut appercevoir le nouveau disque sdb de 8GO.
+
+Prenons un petit instantané...
+
+En root, il faut suivre les commandes suivantes :
+- fdisk /dev/sdb
+- p
+- enter
+- enter
+- enter
+- t (pour lister les codes hexa)
+- Soit 8E pour lvm soit FD pour raid autodetect
+- w
+
+![fdisk/dev/sdb](/Ressources/Exercice2/Q.2.3.1-1-LSBLK.png)  
+
+![fdisk2](/Ressources/Exercice2/Q.2.3.3-2-lsblknewvolume.png)  
+
+Pour ajouter ensuite le volume au raid1 ainsi que réparer le raid1, suivre les commandes ci-dessous.  
+
+- mdadm --add/dev/md0 /dev/sdb1 (ajout du nouveau disque sdb1 à md0 raid1)  
+- cat /proc/mdstat pour suivre la synchronisation  
+- mdadm --detail /dev/md0 pour voir le statut "Clean" du raid. Voir capture ci dessous.  
+
+![mdadm--detail](/Ressources/Exercice2/Q.2.3.3-3-lsblknewvolume.png)  
+
+---
+
 #### Q.2.3.4  
 
 #### Q.2.3.5  

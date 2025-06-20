@@ -24,9 +24,13 @@
 
 ![Remove-Grp-Kelly2](/Ressources/Exercice-1/Q.1.1.3-2-Remove-Grp-Kelly.png)  
 
+---
+
 #### Q.1.1.4  
 
 ![ArchivageKelly](/Ressources/Exercice-1/Q.1.1.4-1.ArchivageKelly-CreationLL.png)  
+
+---
 
 ### Partie 2 : Restriction utilisateurs  
 
@@ -34,15 +38,21 @@
 
 ![Logon-Hours](/Ressources/Exercice-1/Q.1.2.1-1-Logon-Hours.png)  
 
+---
+
 #### Q.1.2.2  
 
 ![Logon-Client](/Ressources/Exercice-1/Q.1.2.2-1-Logon-Client1.png)  
+
+---
 
 #### Q.1.2.3  
 
 ![Passwd-Security](/Ressources/Exercice-1/Q.1.2.3-1-Passwd-Security.png)  
 
 ![Passwd-Security2](/Ressources/Exercice-1/Q.1.2.3-2-Passwd-Security.png)  
+
+---
 
 ### Partie 3 : Lecteurs réseaux  
 #### Q.1.3.1  

@@ -44,11 +44,27 @@ Pour mettre en place une clé d'authentification et désactiver l'auth par mdp :
 - PubkeyAuthentification yes
 - PasswordAuthentification no
 
+---
+
 ### Partie 3 : Analyse du stockage  
 
 #### Q.2.3.1  
 
+Pour accéder à la liste des systemes de fichiers / volumes montés, entrez la commande `LSBLK`.
+
+On peut voir sur la capture d'écran ci-dessous que les fichiers montés sont tous montés sur le disque SDA partionné en SDA1.
+- la racine **/** sur le raid 1 et volume groupe cp3--vg-root avec le logiciel LVM (Logical Volume Manager)
+- le **/boot** sur le raid 1 md0 et partition md0p1
+- le **[SWAP]** ur le raid 1 et volume groupe cp3--vg-swap_1
+
+![LSBLK](/Ressources/Exercice2/Q.2.3.1-1-LSBLK.png)  
+
+---
+
 #### Q.2.3.2  
+
+Le systeme de stockage utilisé est un RAID-1, systeme de mirroring qui copy les données de la partition sda1.
+Il utilise aussi lvm pour configurer les partitions.
 
 #### Q.2.3.3  
 
@@ -59,6 +75,12 @@ Pour mettre en place une clé d'authentification et désactiver l'auth par mdp :
 ### Partie 4 : Sauvegardes  
 
 #### Q.2.4.1  
+
+Les rôles respectifs de Bareos sont :
+- bareos-dir = Bareos Director, s'occupe de la planification, du controle et des taches de sauvegardes
+- bareos-sd = Bareos Storage Daemon, s'occupe de sauvegarder et d'écrire sur les différents supports de stockage
+- bareos-fd = Bareos File Daemon, s'occupe de la collecte des informations à sauvegarder et de les envoyer au Bareos Storage Daemon
+
 
 ### Partie 5 : Filtrage et analyse réseau  
 

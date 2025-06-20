@@ -1,4 +1,4 @@
-## EXERCICE 1 : Manipulations pratiques sur VM Windows (temps estimé : 1h30)  
+## EXERCICE 1 : Manipulations pratiques sur VM Windows 
 
 ### Partie 1 : Gestion des utilisateurs  
 

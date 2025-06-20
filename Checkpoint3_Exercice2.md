@@ -26,6 +26,7 @@ Etant donné qu'il est déconseillé d'utiliser le compte root de manière banal
 
 Pour la configuration SSH, les manipulations se font dans le dossier /etc/ssh/ et dans le fichier sshd_config.
 La bonne pratique voudrait de modifier le fichier local_conf dans le dossier /etc/ssh/sshd_config.d/. Cela permet de modifier sa configuration sans changer le fichier originale.
+Il faut penser à supprimer les # pour permettre l'execution de la ligne.
 
 Pour la désactivation du compte root : PermitRootLogin no
 

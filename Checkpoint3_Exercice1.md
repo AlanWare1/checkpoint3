@@ -45,6 +45,10 @@ J'ai juste ajouté manuellement les **direct report** en allant sur chaque membr
 
 #### Q.1.1.4  
 
+Se rendre dans le disque F:DossiersIndividuels.
+- Créer un nouveau dossier au nom de lionel.lemarchand
+- Renommer le dossier de Kelly.Rhameur avec le suffixe -ARCHIVE
+
 ![ArchivageKelly](/Ressources/Exercice-1/Q.1.1.4-1.ArchivageKelly-CreationLL.png)  
 
 ---
@@ -73,6 +77,10 @@ J'ai juste ajouté manuellement les **direct report** en allant sur chaque membr
 
 ### Partie 3 : Lecteurs réseaux  
 #### Q.1.3.1  
+
+Pour le mappage, il est idéal de créer un partage de dossier sur les différents disque.
+- Clique droit sur le F puis le E, sharing, choisir les permissions, pas d'option de sécurité pour ce cas mais la bonne pratique est de donner le strict nécessaire en droits d'accès.
+- Ensuite comme le montre la premiere capture, créer un GPO pour faire le mappage. Idem pour les droits d'accès, la bonne pratique serait de cibler via l'onglet common > Item-Targeting, le mappage au groupe voulu. 
 
 ![MappageFE](/Ressources/Exercice-1/Q.1.3.1-1-MappageF-E.png)  
 
